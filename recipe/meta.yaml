@@ -1,4 +1,4 @@
-{% set version = "0.6.7" %}
+{% set version = "0.6.9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/immunarch_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/immunarch/immunarch_{{ version }}.tar.gz
-  sha256: 28b5922ac87e5e852b3abcf84f040ced3a97cd52e4847bacd3fc7b69d94069b7
+  sha256: 0fd096bfab198f082fd06d6df35d41e4b9bb6c8ba85fba4fac3c1a4898510155
 
 build:
   merge_build_host: true  # [win]
