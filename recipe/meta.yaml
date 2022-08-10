@@ -31,7 +31,7 @@ requirements:
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
-    host:
+  host:
     - r-base
     - r-mass >=7.3
     - r-rcpp >=1.0
