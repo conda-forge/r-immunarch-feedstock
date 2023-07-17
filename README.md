@@ -1,13 +1,30 @@
-About r-immunarch
-=================
-
-Home: https://immunarch.com/, https://github.com/immunomind/immunarch
-
-Package license: AGPL-3.0-only
+About r-immunarch-feedstock
+===========================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-immunarch-feedstock/blob/main/LICENSE.txt)
 
+
+About r-immunarch
+-----------------
+
+Home: https://immunarch.com/
+
+Package license: AGPL-3.0-only
+
 Summary: A comprehensive framework for bioinformatics exploratory analysis of bulk and single-cell T-cell receptor and antibody repertoires. It provides seamless data loading, analysis and visualisation for AIRR (Adaptive Immune Receptor Repertoire) data, both bulk immunosequencing (RepSeq) and single-cell sequencing (scRNAseq). It implements most of the widely used AIRR analysis methods, such as: clonality analysis, estimation of repertoire similarities in distribution of clonotypes and gene segments, repertoire diversity analysis, annotation of clonotypes using external immune receptor databases and clonotype tracking in vaccination and cancer studies. A successor to our previously published 'tcR' immunoinformatics package (Nazarov 2015) <doi:10.1186/s12859-015-0613-1>.
+
+Development: https://github.com/immunomind/immunarch
+
+About r-immunarch
+-----------------
+
+Home: https://immunarch.com/
+
+Package license: AGPL-3.0-only
+
+Summary: A comprehensive framework for bioinformatics exploratory analysis of bulk and single-cell T-cell receptor and antibody repertoires. It provides seamless data loading, analysis and visualisation for AIRR (Adaptive Immune Receptor Repertoire) data, both bulk immunosequencing (RepSeq) and single-cell sequencing (scRNAseq). It implements most of the widely used AIRR analysis methods, such as: clonality analysis, estimation of repertoire similarities in distribution of clonotypes and gene segments, repertoire diversity analysis, annotation of clonotypes using external immune receptor databases and clonotype tracking in vaccination and cancer studies. A successor to our previously published 'tcR' immunoinformatics package (Nazarov 2015) <doi:10.1186/s12859-015-0613-1>.
+
+Development: https://github.com/immunomind/immunarch
 
 Current build status
 ====================
@@ -27,13 +44,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10483&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-immunarch-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10483&branchName=main">
@@ -41,10 +51,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10483&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-immunarch-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-immunarch-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -52,6 +62,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10483&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-immunarch-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10483&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-immunarch-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
