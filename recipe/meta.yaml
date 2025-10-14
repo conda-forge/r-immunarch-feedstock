@@ -1,4 +1,4 @@
-{% set version = "0.9.1" %}
+{% set version = "0.10.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/immunarch_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/immunarch/immunarch_{{ version }}.tar.gz
-  sha256: 2e0390a1b06f81f2093ba761e36be9fc3233f4befd231b468a2cacfdc9f9847c
+  sha256: e800ff59fdb418e8bedcc9199ac4414599ff764958c124e969c27dc7b40369a2
 
 build:
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
