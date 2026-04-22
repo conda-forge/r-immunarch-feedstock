@@ -3,24 +3,9 @@ About r-immunarch-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-immunarch-feedstock/blob/main/LICENSE.txt)
 
-
-About r-immunarch
------------------
-
 Home: https://immunarch.com/
 
-Package license: AGPL-3.0-only
-
-Summary: A comprehensive framework for bioinformatics exploratory analysis of bulk and single-cell T-cell receptor and antibody repertoires. It provides seamless data loading, analysis and visualisation for AIRR (Adaptive Immune Receptor Repertoire) data, both bulk immunosequencing (RepSeq) and single-cell sequencing (scRNAseq). It implements most of the widely used AIRR analysis methods, such as: clonality analysis, estimation of repertoire similarities in distribution of clonotypes and gene segments, repertoire diversity analysis, annotation of clonotypes using external immune receptor databases and clonotype tracking in vaccination and cancer studies. A successor to our previously published 'tcR' immunoinformatics package (Nazarov 2015) <doi:10.1186/s12859-015-0613-1>.
-
-Development: https://github.com/immunomind/immunarch
-
-About r-immunarch
------------------
-
-Home: https://immunarch.com/
-
-Package license: AGPL-3.0-only
+Package license: Apache-2.0
 
 Summary: A comprehensive framework for bioinformatics exploratory analysis of bulk and single-cell T-cell receptor and antibody repertoires. It provides seamless data loading, analysis and visualisation for AIRR (Adaptive Immune Receptor Repertoire) data, both bulk immunosequencing (RepSeq) and single-cell sequencing (scRNAseq). It implements most of the widely used AIRR analysis methods, such as: clonality analysis, estimation of repertoire similarities in distribution of clonotypes and gene segments, repertoire diversity analysis, annotation of clonotypes using external immune receptor databases and clonotype tracking in vaccination and cancer studies. A successor to our previously published 'tcR' immunoinformatics package (Nazarov 2015) <doi:10.1186/s12859-015-0613-1>.
 
@@ -169,12 +154,12 @@ it is possible to build and upload installable packages to the
 [conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
-To manage the continuous integration and simplify feedstock maintenance
+To manage the continuous integration and simplify feedstock maintenance,
 [conda-smithy](https://github.com/conda-forge/conda-smithy) has been developed.
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
-For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
+For more information, please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
@@ -201,7 +186,7 @@ merged, the recipe will be re-built and uploaded automatically to the
 everybody to install and use from the `conda-forge` channel.
 Note that all branches in the conda-forge/r-immunarch-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
-on branches in forks and branches in the main repository should only be used to
+on branches in forks, and branches in the main repository should only be used to
 build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
